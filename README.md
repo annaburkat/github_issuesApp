@@ -7,6 +7,7 @@ Template for Github issues application.
 You will need the following to installed on your computer:
 
 *Node.js 
+
 *Gulp
 
 
