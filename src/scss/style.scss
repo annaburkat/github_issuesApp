@@ -1,0 +1,43 @@
+@import "colors";
+@import "reset";
+@import "partials/sidebar.scss";
+@import "partials/issues.scss";
+
+html {
+  background-color: #000;
+  background: url("../images/background.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 650px;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: row;
+}
+
+.section {
+  &--left {
+    width: 150px;
+    height: 100%;
+    background-color: rgba(16,16,34, 0.95);
+    border-radius: 10px 0 0 10px;
+  }
+
+  &--right {
+    width: 500px;
+    height: 100%;
+    background-color: rgb(246, 246, 246);
+    border-radius: 0 10px 10px 0;
+    overflow: scroll;
+  }
+}

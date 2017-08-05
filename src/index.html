@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Github Issues App</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+  <div class="container">
+
+    <section class="section section--left">
+      <div class="button">
+        <div class="button__item button__item--close">
+
+        </div>
+        <div class="button__item button__item--min">
+
+        </div>
+        <div class="button__item button__item--max">
+
+        </div>
+      </div>
+
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="filter-item">
+            <a class="filter-item__link">
+            <img src="../images/icon-github.svg" class="filter-item__icon" alt="github_logo"/>
+            <span class="filter-item__text">All</span>
+            <span class="filter-item__amount">12</span>
+          </a>
+          </li>
+          <li class="filter-item">
+            <a class="filter-item__link">
+            <img src="../images/icon-open-issue.svg" class="filter-item__icon"  alt="open_logo"/>
+            <span class="filter-item__text">Open</span>
+            <span class="filter-item__amount">4</span>
+          </a>
+          </li>
+          <li class="filter-item">
+            <a class="filter-item__link">
+            <img src="../images/icon-closed-issue.svg" class="filter-item__icon" alt="closed_logo" />
+            <span class="filter-item__text">Closed</span>
+            <span class="filter-item__amount">8</span>
+          </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <section class="section section--right">
+      <form class="form" action="index.html" method="post">
+
+        <div class="form__list">
+
+          <div class="form__item">
+            <p class="form__item-date">
+              19-07-2016
+            </p>
+            <div class="issue">
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_1">Page changes</label>
+                <input class="issue__box-input" id="issue_1" type="checkbox">
+              </div>
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_2">Review of last issues</label>
+                <input class="issue__box-input" id="issue_2" type="checkbox">
+                <img class="star" src="images/icon-star.svg" alt="star_icon" />
+                <img class="star" src="images/icon-github.svg" alt="star_icon" />
+              </div>
+            </div>
+          </div>
+
+          <div class="form__item">
+            <p class="form__item-date">
+              18-07-2016
+            </p>
+            <div class="issue">
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_3">Visual UI Update Review</label>
+                <input class="issue__box-input" id="issue_3" type="checkbox">
+              </div>
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_4">Sidebar changes</label>
+                <input class="issue__box-input" id="issue_4" type="checkbox">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form__item">
+            <p class="form__item-date">
+              15-07-2016
+            </p>
+            <div class="issue">
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_5">Crash update</label>
+                <input class="issue__box-input" id="issue_5" type="checkbox">
+              </div>
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_6">Page visual UI Update Review</label>
+                <input class="issue__box-input" id="issue_6" type="checkbox">
+              </div>
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_7">Sidebar update</label>
+                <input class="issue__box-input" id="issue_7" type="checkbox">
+              </div>
+            </div>
+          </div>
+
+
+          <div class="form__item">
+            <p class="form__item-date">
+              14-07-2016
+            </p>
+            <div class="issue">
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_8">Crash issue</label>
+                <input class="issue__box-input" id="issue_8" type="checkbox">
+              </div>
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_9">Visual update &amp; Crash resolve</label>
+                <input class="issue__box-input" id="issue_9" type="checkbox">
+              </div>
+            </div>
+          </div>
+
+          <div class="form__item">
+            <p class="form__item-date">
+              13-07-2016
+            </p>
+            <div class="issue">
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_10">Editor color schemes</label>
+                <input class="issue__box-input" id="issue_10" type="checkbox">
+              </div>
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_11">Install packages</label>
+                <input class="issue__box-input" id="issue_11" type="checkbox">
+              </div>
+              <div class="issue__box">
+                <label class="issue__box-label" for="issue_12">Code review</label>
+                <input class="issue__box-input" id="issue_12" type="checkbox">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </form>
+    </section>
+
+  </div>
+
+  <script async src="js/main.js"></script>
+</body>
+
+</html>
