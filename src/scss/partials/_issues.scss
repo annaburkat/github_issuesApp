@@ -1,12 +1,14 @@
 .form {
   &__list {
-    margin-left: 15px;
-    margin-right: 25px;
+    margin-left: 12px;
+    margin-right: 22px;
   }
 
   &__item {
     margin-top: 10px;
-
+    &--first{
+      margin-top: 7px;
+    }
     &-date {
       color: rgb(138, 137, 149);
       font-size: 12px;
@@ -18,38 +20,45 @@
 .issue {
   &__box {
     height: 40px;
+    width: 465px;
     margin-bottom: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: $basic_light;
     border: 1px solid rgb(224, 224, 224);
     border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    cursor: pointer;
+
+    &:last-of-type {
+      margin-bottom: 7px;
+    }
 
     &-label {
       margin-left: 12px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    &-title {
       font-size: 15px;
     }
 
     &-input {
       -webkit-appearance: none;
-      background-image: url(../images/icon-star.svg);
+      background-image: url("../images/icon-star.svg");
       background-repeat: no-repeat;
       width: 16px;
       height: 19px;
       outline: none;
+      margin: 11px 10px 11px 0;
     }
+
     &-input:active,
-    &-input:checked{
-          background-image: url(../images/icon-star-checked.svg);
-          width: 16px;
-          height: 19px;
-          outline: none;
+    &-input:checked {
+      background-image: url("../images/icon-star-checked.svg");
+      width: 16px;
+      height: 19px;
+      outline: none;
     }
   }
 }
-// .svg{
-//   stroke: red;
-//   fill: green;
-// }

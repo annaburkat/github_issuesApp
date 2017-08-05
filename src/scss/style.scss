@@ -2,6 +2,7 @@
 @import "reset";
 @import "partials/sidebar.scss";
 @import "partials/issues.scss";
+@import "partials/scrollbar.scss";
 
 html {
   background-color: #000;
@@ -29,15 +30,16 @@ html {
   &--left {
     width: 150px;
     height: 100%;
-    background-color: rgba(16,16,34, 0.95);
+    background-color: $background_nav;
     border-radius: 10px 0 0 10px;
   }
 
   &--right {
     width: 500px;
     height: 100%;
-    background-color: rgb(246, 246, 246);
+    background-color: $background_form;
     border-radius: 0 10px 10px 0;
-    overflow: scroll;
+    overflow-y: scroll;
+    border: 3px solid rgb(246, 246, 246);
   }
 }
