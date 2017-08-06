@@ -28,4 +28,15 @@ gulp.task('sass', function(){
 })
 
 
+gulp.task('css', function () {
+    var postcss    = require('gulp-postcss');
+
+    return gulp.src('src/**/*.css')
+        .pipe( sourcemaps.init() )
+        .pipe( postcss([ require('precss'), require('autoprefixer') ]) )
+        .pipe( sourcemaps.write('.') )
+        .pipe( gulp.dest('build/') );
+});
+
+
 gulp.task('default', ['serve']);
