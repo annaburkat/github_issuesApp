@@ -45,6 +45,9 @@
 
     &-input {
       -webkit-appearance: none;
+      -o-appearance: none;
+      -ms-appearance: none;
+      -moz-appearance: none;
       background-image: url("../images/icon-star.svg");
       background-repeat: no-repeat;
       width: 16px;
