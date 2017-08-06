@@ -19,21 +19,6 @@
   }
 }
 
-::-ms-check {
-  background-image: url("../images/icon-star.svg");
-  background-repeat: no-repeat;
-  width: 16px;
-  height: 19px;
-  outline: none;
-  margin: 11px 10px 11px 0;
-  border-width: 0;
-}
-
-:checked::-ms-check{
-  background-image: url("../images/icon-star-checked.svg");
-  color: transparent;
-}
-
 .issue {
   &__box {
     height: 40px;
@@ -62,7 +47,7 @@
 
     &-input {
       -webkit-appearance: none;
-      -moz-appearance:none; 
+      -moz-appearance:none;
       background-image: url("../images/icon-star.svg");
       background-repeat: no-repeat;
       width: 16px;
@@ -78,4 +63,19 @@
       background-image: url("../images/icon-star-checked.svg");
     }
   }
+}
+
+::-ms-check {
+  background-image: url("../images/icon-star.svg");
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 19px;
+  outline: none;
+  margin: 11px 10px 11px 0;
+  border-width: 0;
+}
+
+:checked::-ms-check{
+  background-image: url("../images/icon-star-checked.svg");
+  color: transparent;
 }
