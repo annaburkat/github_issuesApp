@@ -55,7 +55,6 @@
       outline: none;
       margin: 11px 10px 11px 0;
       border-width: 0;
-      /* fix for IE */
     }
 
     &-input:active,
@@ -65,6 +64,7 @@
   }
 }
 
+/* fix for IE */
 ::-ms-check {
   background-image: url("../images/icon-star.svg");
   background-repeat: no-repeat;
