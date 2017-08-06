@@ -16,7 +16,7 @@ You will need the following to installed on your computer:
 ```
 * change into the new directory
 * git clone 'repository-url' 
-* 'npm install'
+* 'npm install && npm start'
 ```
 
 
