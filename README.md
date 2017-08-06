@@ -14,9 +14,9 @@ You will need the following to installed on your computer:
 ### Installing
 
 ```
-* change into the new directory
-* git clone 'repository-url' 
-* 'npm install'
+* git clone https://github.com/annaburkat/github_issuesApp.git 
+* cd github_issuesApp
+* npm install && npm start
 ```
 
 
